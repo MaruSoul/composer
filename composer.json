@@ -1,0 +1,19 @@
+{
+    "name": "mary/composer",
+    "description": "home work for hillel",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Mary\\Composer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "MarySoul",
+            "email": "soulmeri0@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.3"
+    }
+}
