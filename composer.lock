@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "290b1d6705cb148ff926981e77e000d0",
+    "content-hash": "99070c824e5da8276001b0d24093765f",
     "packages": [
         {
             "name": "guzzlehttp/guzzle",
@@ -307,6 +307,45 @@
                 }
             ],
             "time": "2021-10-06T17:43:30+00:00"
+        },
+        {
+            "name": "marusoul/numeric-postfix",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/MaruSoul/numeric-postfix.git",
+                "reference": "1721f53bf57e2221716b35dec485dad037588de0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/MaruSoul/numeric-postfix/zipball/1721f53bf57e2221716b35dec485dad037588de0",
+                "reference": "1721f53bf57e2221716b35dec485dad037588de0",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.3 || ^7.0 || ^8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/getNumericPostfix.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "MaruSoul",
+                    "email": "soulmeri0@gmail.com"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/MaruSoul/numeric-postfix/issues",
+                "source": "https://github.com/MaruSoul/numeric-postfix/tree/1.0.1"
+            },
+            "time": "2021-10-17T13:22:58+00:00"
         },
         {
             "name": "psr/http-client",
